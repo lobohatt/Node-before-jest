@@ -1,0 +1,91 @@
+body{
+  color:greenyellow;
+  font-family: arial;
+  max-width: 650px;
+  margin: 0 auto;
+  padding: 0 16px;
+
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.7)),url(/img/weather.jpg) no-repeat center ;
+  background-size: cover ;
+}
+
+footer {
+ 
+  
+ color: whitesmoke;
+ border-top:1px solid greenyellow;
+ margin-top: 16px;
+ padding: 16px 0;
+}
+
+header{
+  margin-top: 16px;
+  margin-bottom: 48px;
+}
+
+h1{
+  font-size: 64px;
+  margin-bottom: 16px;
+}
+
+header a {
+  color: aqua;
+  margin-right: 16px;
+  text-decoration: none;
+}
+
+.portrait{
+   width: 250px;
+   margin-bottom: 10px;
+}
+.main-content{
+  flex-grow: 1;   
+}
+
+input{
+ border:1px solid #cccccc;
+ padding: 8px;
+}
+button{
+cursor: pointer;
+border: 1px solid #888888;
+background: #888888;
+color: white;
+padding: 8px;
+}
+
+button:hover{
+  background:aqua;
+  color: black;
+}
+
+#message-1{
+  font-size: 20px;
+  color:paleturquoise
+}
+
+#message-2{
+  font-size: 20px;
+  color:paleturquoise ;
+}
+
+.iimg{
+  width: 250px;
+  height: 250px;
+  border-radius: 50px;
+  border: 1px solid blue;
+}
+
+.skill{
+  white-space: nowrap;
+}
+.bond{
+   color: lightseagreen;
+} 
+
+.bonds{
+  color: crimson;
+}

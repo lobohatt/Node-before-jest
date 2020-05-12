@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="/img/mm3.jpg">
+  <link rel="stylesheet" type="text/css" href="/css/style.css">
+  <script src="https://kit.fontawesome.com/fd9e1d704b.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div class="main-content">
+    {{>header}}
+
+    <h2>Quick Weather Check</h2>
+    <!--<h1>{{title}}</h1>-->
+    <p>Created by {{name}}</p>
+    <img class="portrait" src="https://images-na.ssl-images-amazon.com/images/I/618JM4e7YqL.png">
+
+    <form>
+      <input type="text" placeholder="Location">
+      <button>Search</button>
+    </form>
+
+    <p id="message-1"></p>
+    <p id="message-2"></p>
+  </div>
+  {{>footer}}
+  <script src="/js/app.js"></script>
+</body>
+
+</html>
